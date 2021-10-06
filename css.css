@@ -1,0 +1,330 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+div.btn_btn-success{
+    background-color: sienna;
+    padding: 10px;
+}
+div.panel_panel-default{
+    background-color: rgb(255, 196, 0);
+    text-align: center;
+    padding: 10px;
+    background-attachment: fixed;
+}
+div.panel-body{
+    background-color: gray;
+    
+}
+title.title{
+    color: sienna;
+   
+}
+div.well_text-center{
+    background-color:rgb(96 125 139 / 52%);
+    text-align: center;
+    padding: 10px;
+    background-attachment: fixed;
+
+
+
+}
+
+table.panel-body{
+    text-align: center;
+}
+
+table.table_table-striped{
+    
+        margin-left: auto;
+        margin-right: auto;
+}
+
+
+.container{
+    display: grid;
+}
+
+
+.form-group{
+    margin-right: auto;
+}
+div.btn_btn-info_pull-right{
+    background-color: seagreen;
+}
+div.back-to-top-wrapper{
+    
+        display: inline-block;
+        text-decoration: none;
+        font-size: 200rem;
+        line-height: 300rem;
+        text-align: center;
+        width: 3rem;
+        height: 3rem;
+        border-radius: 50%;
+        background-color: #D6E3F0;
+        padding: 0.25rem;
+        
+}
+
+.btn{
+color: rgb(255, 0, 0);
+
+}
+
+body{
+    background:url(11.jpg); 
+    background-attachment: fixed;
+    background-position:center center;
+     height:auto;
+       background-repeat:no-repeat;
+        background-size:cover ;
+        color: #f1f1f1;
+
+}
+body:before {
+    content: "";
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    background-color: rgba(0, 0, 0, 0.93);
+}
+body.h2{
+    text-align: center;
+    
+}
+.center{
+    background-color:rgb(96 125 139 / 52%);
+    text-align: center;
+    padding: 10px;
+    background-attachment: fixed;
+}
+a.btn{
+    text-align: right;
+    
+}
+.right{
+    text-align: right;
+}
+#search{
+    text-align: center;
+    padding: 4px;
+    border-width: 3px;
+    width: 200px;
+    height: 34px;
+    font-size: .85em;
+    font-weight: bold;
+    color: #919191;
+    border: 2px solid #000;
+    border-radius: 20px;
+    padding: 4px 30px;
+    background: #1d1d1d1d no-repeat 9px 8px;
+    margin-top:10px;
+    
+
+
+}
+
+center.page{
+    color: whitesmoke;
+}
+div.line {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 150px;
+    column-gap: 20px;
+    justify-content: center;
+}
+
+textarea{
+   width: 250px;
+    height: 50px;
+    background-color: #fff;
+    resize: both;
+}
+button{
+    width: 100px;
+    height: 30px;
+    background-color: #282828;
+    border: none;
+    color: azure;
+    font-family: arial;
+    font-weight:400;
+    cursor: pointer;
+    margin-bottom: 60px;
+}
+.comment{
+    width: 845px;
+    padding: 20px;
+    margin-bottom: 4px;
+    background-color:#D6E3F0;
+    border-radius: 4px;
+    position: relative;
+}
+.comment p {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 16px;
+    color: #282828;
+    font-weight: 100;
+
+}
+.edit-form{
+position: absolute;
+top: 40px;
+right: 0px;
+
+}
+.edit-form button{
+    width: 300px;
+    height: 100px;
+    color: #282828;
+    background-color: #fff;
+    opacity: 0.7;
+    }
+    .edit-form button:hover{
+       opacity: 1;
+}
+.delete-form{
+    position: absolute;
+    top: 40px;
+    right: 50px;
+    
+    }
+    .edit-form button{
+        width: 40px;
+        height: 24px;
+        color: #282828;
+        background-color: #fff;
+        opacity: 0.7;
+        }
+        .edit-form button:hover{
+           opacity: 1;
+}
+
+div.image1{
+    border: #f1f1f1;
+
+}
+
+div.item{
+    border: 1px solid #fff;
+    padding: 10px;
+    margin:35px;
+}
+.item img{
+    text-align:center
+}
+.item a{
+    color:#ddd;
+    border: 1px solid #fff;
+}
+.item a:hover{
+    color:#111;
+    background-color: #fff;
+}
+div.seperation{
+   margin: 20;
+    font-style: italic;
+   font-family:Arial, Helvetica, sans-serif
+}
+.overview{
+    font-style: italic;
+    font-family: system-ui;
+}
+a.h2{
+    text-align: center;
+}
+.menu-bar{
+    width:100%;
+    
+}
+ .logo{
+    background-color: #282828;
+}
+.col-md-5 img{
+    height: 60px;
+    width:60px;
+    margin:5px 20px;
+}
+.search{
+    background-color: #282828;
+    
+}
+.menu{
+   
+    background-color: #282828;
+}
+    
+ .logins{
+    
+    background-color: #282828;
+    
+    
+}
+.login{
+    
+    background-color: #282828;
+    
+  
+    
+}
+.login a{
+
+    color:#ddd;
+    margin-top: 10px;
+    
+}
+.login a:hover{
+
+    color:#000;
+    background-color:#fff ;
+    
+}
+.logout{
+    
+    background-color: #282828;
+    
+    
+}
+.logout a{
+
+    color:#ddd;
+    margin-top: 10px;
+    
+}
+.logout a:hover{
+
+    color:#000;
+    background-color:#fff ;
+    
+}
+.nav{
+    margin-top:10px;
+}
+.nav li a{
+  
+    color:#ddd !important;
+    
+}
+.nav li a:hover{
+
+    color:#000 !important;
+    background-color:#fff ;
+    
+}
+.btn2 a{
+    color: red;
+    float:right;
+    font-size: 50px;
+}
+.line{
+    padding: 0px 50px 0px 20px;
+}
+
+.heading-background{
+    background-color:rgb(96 125 139 / 52%);
+    padding:0 !important
+}
